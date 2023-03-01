@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Proyecto cv web"</title>
+    <link rel="stylesheet" type="text/css" href="css./estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navegacion">
+      <ul class="menu">
+        <li>Presentacion cv</li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#">Valores</a>
+        <ul class="submenu">
+          <li><a href="#virtudes">Virtudes</a></li>
+          <li><a href="#defectos">Defectos</a></li>
+        </ul></li>
+        <li><a href="#estudios">Conocimientos</a></li>
+        <li><a href="#exper">Experiencia laboral</a></li>
+      </ul>
+    </nav>
+  </header>
+
+      <div>
+        <h1>Troncoso, Eduardo David</h1>
+      </div>
+      <br>
+
+      <script>
+        alert("Hola,bienvenidos a mi cv");
+        alert("¡Gracias por visitarme!")
+      </script>
+
+     
+      <div id="info">
+       <p>
+        <h2>"Datos personales"</h2>
+        <br>
+        <br>
+        <button id="boton" onclick="mostrar();">Mostrar</button>
+        <div id="datos">
+          
+          <br>
+          <b>Edad: 34 años.</b>
+          <br>
+          <b>Estado civil: soltero.</b> 
+          <br>
+          <b>Direccion: Colegiales, Gregorio de Laferrere.</b>
+          <br>
+          <button id="boton" onclick="ocultar();">Ocultar</button>
+         </div>
+        </p>
+
+        <script>
+          function mostrar(){
+            document.getElementById('datos').style.display='block';
+          }
+          function ocultar(){
+            document.getElementById('datos').style.display='none';
+          }
+        </script>
+
+      </div>
+      <br>
+           <div id="Contacto">
+            <center>
+             <main>
+               <a href="https://wa.me/5491167828407" target="_blank"><i class="fa-brands fa-3x fa-whatsapp"></i></a>
+               <a href= "mailto:eduardotroncoso01@gmail.com?Subject=Estamos%20interesados%20en%20su%20perfil"><i class="fa-regular fa-3x fa-envelope"></i></a>
+               <a href="https://www.facebook.com/eduardodavid.tr" target="_blank"><i class="fa-brands fa-3x fa-facebook"></i></a>
+               <a href="https://www.instagram.com/eduardotr4067/" target="_blank"><i class="fa-brands fa-3x fa-instagram"></i></a>
+               <a href="https://twitter.com/EduardoDavidTr" target="_blank"><i class="fa-brands fa-3x fa-twitter"></i></a>
+               <a href="https://www.linkedin.com/in/eduardo-troncoso-761389258/" target="_blank"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+             </main>
+             <br>
+                <iframe width="1060" height="615" src="https://www.youtube.com/embed/bLBC9Jk_sLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Tu navegador no soporta este formato.</iframe>
+            </center>
+              <br>
+            </div>
+            <br>
+
+           
+     <p>
+      <br>
+      <div id="box1">
+         <h2 id="virtudes">"Virtudes" </h2>  
+          <br>
+          <br>
+          <br>
+          <br>
+           <div>       
+             <h3>"Respetuoso"</h3>
+
+             <p>"Ante todo y todos, como filosofia de vida, para todas las situaciones."</p>
+            </div>
+           <div>
+             <h3>"Responsable"</h3>
+             <p>"Ante cada compromiso asumido, y situacion que corresponde."</p>
+            </div>
+           <div>
+              <h3>"Creativo"</h3>
+              <p>"Considero que para la mayoria de las situaciones, hay que crear varios planes." </p>
+            </div>
+            <br> 
+         <h2 id="defectos">"Defectos" </h2>  
+            <br>
+            <br>
+            <br>  
+            <div>       
+              <h3>"Ansioso"</h3>
+              
+              <p>"Por momentos, siento ansias de estar en otro punto de este proceso."</p>
+             </div>
+            <div>
+              <h3>"Realista"</h3>
+              <p>"Es muchas veces, lo que me detiene y relentiza los tiempos."</p>
+             </div>
+            <div>
+               <h3>"Desprolijo"</h3>
+               <p>"Con las cosas que no son de mi interes, (trabajo fuerte en esto)." </p>
+             </div>
+      </div>
+        
+      <div id="Columna2">
+  
+  
+       <h2 id="estudios">"Conocimientos"</h2>
+       <p>
+        Armado y desarrollo de codigo para la <b>construccion</b> de tus herramientas. 
+       </p><i class="fa-brands fa-3x fa-html5"></i>
+       <br>
+       <p>
+        Conoicimientos de Css para <b>dar formato</b> a tu futuro.
+       </p><i class="fa-brands fa-3x fa-css3-alt"></i>
+       <br>
+       <p>
+        La forma en que le vamos a <b>dar vida</b> a tus ideas.
+       </p><i class="fa-brands fa-3x fa-js"></i>
+       <br>
+       <br>
+       <br>
+
+       <h2>"Certificaciones"</h2>
+       <p id="cert">
+        <iframe src="file:///C:/Users/Grace/Desktop/proyecto.html/Primer%20proyecto/argentina_programa_2022.pdf"></iframe>
+       </p>
+
+       <h2 id="exper">"Experiencia laboral"</h2>
+       <div>
+         <p>
+           <li>Construccion de este <b><u>grandioso</u></b> sitio.</li>
+           <br>
+           <li> Developer Sr en Google, me desarrolle en este puesto durante 24 años, siendo unos de sus fundadores(dato de ficcion).</li>
+           <br>
+           <li> Referencias= Sr Google, tel(particular): 55-55-55-55.(dato de ficcion). Av SiempreViva 742.</li>
+           </p>
+          </div>
+      </div>
+    </p>
+    <br>
+    <br>
+    <footer>
+      <h4>
+        Todos los derechos reservados a quien corresponde. Datos ficticios agregados. Gregorio de Laferrere, febrero 2023.
+      </h4>
+    </footer>
+</body>
+</html>

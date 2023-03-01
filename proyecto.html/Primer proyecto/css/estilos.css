@@ -1,0 +1,129 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background:#f8f6f5 ;
+}
+
+.navegacion{
+    width: 62.5em;
+    margin: 1.8em auto;
+    background:#fff;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 0.938em 1.25em;
+    color: #353535;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 0.98em 1.25em;
+    color: #353535;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+h1 {  
+    background-color:black;
+    width: 100vw;
+    height: 20vh;
+    color:grey; 
+    font-size:3em;
+    text-align: center;
+    line-height: 2;
+}
+#boton{
+    border-radius: 1.88em;
+    display: inline-block;
+    padding: 0.625em;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+}
+
+#info{
+    text-align: center;
+}
+
+.virtud {
+    text-align: justify;
+    padding-left: 1.25em;
+}
+
+h2 {
+    display: inline;
+    border-radius: 1.875em;
+    background-color:rgb(170, 169, 169);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
+video {
+    box-align: center;
+}
+
+h3 {
+    display: inline;
+    border-radius: 1.25em;
+    padding: 0.5rem;
+    color:darkturquoise;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#box1 {
+    border: 50rem;
+    text-align: center;
+    align-content: center;
+    }
+#Columna2 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#cert {
+   -moz-box-align: center;
+}
+h4 {
+    background: grey;
+    text-align: center;
+}
+
+#datos{
+    display: none;
+}
